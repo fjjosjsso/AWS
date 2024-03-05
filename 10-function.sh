@@ -4,7 +4,7 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then 
     echo "ERROR: You are not in root access so kinldy go for root access"
-    exit 2
+    exit 1
 else
     echo "Your are in root access"
 fi
