@@ -1,8 +1,8 @@
 #!/bin/bash
-
-read name
-echo "Your enter name is : $name"
-
-read -s "Give proper name" NAME
-echo "Your enter name is $NAME"
+echo "Enter Username :"
+read -s USERNAME
+echo "enter username is : $USERNAME"
+echo "Enter Password"
+read -s PASSWORD
+echo "Entered password is : $PASSWORD"
 
